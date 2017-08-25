@@ -1,6 +1,6 @@
 # Gazella-sso
 
-Single Signon for Gazella Wifi Partners & Resellers
+Single Sign-on for Gazella Wifi Partners & Resellers 
 
 ## Getting Started
 
@@ -12,27 +12,27 @@ Php 5.6 or newer
 ### Prerequisites
 
 Gazella Partner or Reseller Account:
-> Purchase here: https://gazellawifi.com/ with custom sys.yoursystemurl.com
+> Purchase here: https://gazellawifi.com/ with a custom sys.yoursystemurl.com
 
-Your Gazella API Key:
+Your Gazella API Key "$apikey":
 > Get this here: https://sys.yoursystemurl.com/account-settings/
 
-A Users "user_id":
+A Users ID "$userID":
 > If you have users get the "ID" from one here: http://sys.yoursystemurl.com/manage-user-accounts/
 
 ### Installing
 
-Upload "gazella-sso.php" into your project folder I.e. yourcustomsite.com/project/gazella-sso.php
-Then Edit "gazella-sso.php" by replacing the variables with the 'XXXX' values in the "CONFIGURATION" 
-with your own variables seen below within your gazella-sso.php:
+Upload "gazella-sso.php" into your project folder. Example: yourcustomsite.com/project/gazella-sso.php.
+Once the file is uploaded you may then edit "gazella-sso.php" by replacing the variables with the 'XXXXXXX' values in the "// CONFIGURATION" 
+section of the file with your own variables:
 
 ```
 //======================================================================//
 // CONFIGURATION
 //======================================================================//  
 
-/* This is the token that you can find under your account Settings */
-$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX';
+/* This is the token that you can find under your Account Settings */
+$apiKey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX';
 
 /* Insert your reseller sys login url here */
 $sysURL = "XXXXXXXXXXXXXX";
@@ -53,7 +53,7 @@ If successful will redirect you (now logged in) as the user that you specified a
 //======================================================================//  
 
 /* This is the token that you can find under your account Settings */
-$apikey = '3948_93V4bbbbba747023450bd'; 
+$apiKey = '3948_93V4bbbbba747023450bd'; 
 
 /* Insert your reseller sys login url here */
 $sysURL = "sys.gazellawifi.com";

@@ -7,11 +7,11 @@
 // CONFIGURATION
 //======================================================================//  
 
-/* This is the token that you can find under your account Settings */
-$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; 
+/* This is the token that you can find under your Account Settings */
+$apiKey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Example: 439_34034030b9393403403
 
 /* Insert your reseller sys login url here */
-$sysURL = "sys.yoursite.com";   // Example: sys.yoursite.com
+$sysURL = "XXXXXXXXXXXXXX";   // Example: sys.yoursite.com
 
 /* Insert the user ID that you'd like to authenticate as */ 
 $userID = "XXX";  // Example: 1234
@@ -24,11 +24,11 @@ $userID = "XXX";  // Example: 1234
 $ts = time(); 
 
 /* Hash please */ 
-$blob   = "$userID|$apikey|$ts";
+$blob   = "$userID|$apiKey|$ts";
 $hash   =   hash('sha256', $blob);
 
 /* Token Scramble */
-$ownerID = strtok($apikey, '_');
+$ownerID = strtok($apiKey, '_');
 $loader = [
     'o'     => $ownerID, 
     'p'     => $userID,
