@@ -1,73 +1,44 @@
 # Gazella-sso
 
-One Paragraph of project description goes here 2
+Single Signon for Gazella Wifi Partners & Resellers
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+If you have a Partner or Reseller account with GazellaWifi.com - These instructions will get you up an running to be able to programmatically login as one of your users. 
+
+### Server Requirements
+Php 5.6 or newer
 
 ### Prerequisites
 
-Php
-
-```
-Give examples
-```
+Gazella Reseller Account
+Your Gazella API Key
+A Users "user_id"
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Upload gazella-sso.php into your project folder. Then configure the 
+options you see 
 
 ```
-until finished
+//======================================================================//
+// CONFIGURATION
+//======================================================================//  
+
+/* This is the token that you can find under your account Settings */
+$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; 
+
+/* Insert your reseller sys login url here */
+$sysURL = "sys.yoursite.com";   // Example: sys.yoursite.com
+
+/* Insert the user ID that you'd like to authenticate as */ 
+$userID = "XXX";  // Example: 1234
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
+ 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+We use Gazella API v1.0 for this example. See Documentation here: https://sys.gazellawifi.com/docs/api/
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
