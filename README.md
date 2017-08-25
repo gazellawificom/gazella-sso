@@ -11,15 +11,15 @@ Php 5.6 or newer
 
 ### Prerequisites
 
-Gazella Reseller Account
-Your Gazella API Key
-A Users "user_id"
+Gazella Partner or Reseller Account <--- Purchase here: https://gazellawifi.com/
+Your Gazella API Key  <--- Get this here: https://sys.yoursystemurl.com/account-settings/
+A Users "user_id"  <--- If you have users get the "ID" from one here: http://sys.yoursystemurl.com/manage-user-accounts/
 
 ### Installing
 
-Upload gazella-sso.php into your project folder. 
-Then configure / replace the variables in bold text within
-the "CONFIGURATION" for example as seen below:
+Upload "gazella-sso.php" into your project folder I.e. yourdomain.com/project/gazella-sso.php
+Then Edit "gazella-sso.php" by replacing the variables with the 'XXXX' values in the "CONFIGURATION" 
+with your own variables seen below within your gazella-sso.php:
 
 ```
 //======================================================================//
@@ -27,14 +27,36 @@ the "CONFIGURATION" for example as seen below:
 //======================================================================//  
 
 /* This is the token that you can find under your account Settings */
-$apikey = '__XXXXXXXXXXXXXXXXXXXXXXXXXXX__'; 
+$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; 
 
 /* Insert your reseller sys login url here */
-$sysURL = "__sys.yoursite.com__";   // Example: sys.yoursite.com
+$sysURL = "sys.yoursite.com";   // Example: sys.yoursite.com
 
 /* Insert the user ID that you'd like to authenticate as */ 
-$userID = "__XXX__";  // Example: 1234
+$userID = "XXX";  // Example: 1234
 ```
+
+### Testing
+
+Now that your file will look something like the code below - you may test it by
+simply visiting the file 
+
+```
+//======================================================================//
+// CONFIGURATION
+//======================================================================//  
+
+/* This is the token that you can find under your account Settings */
+$apikey = '3948_93V4bbbbba747023450bd'; 
+
+/* Insert your reseller sys login url here */
+$sysURL = "sys.gazellawifi.com";   // Example: sys.yoursite.com
+
+/* Insert the user ID that you'd like to authenticate as */ 
+$userID = "293";  // Example: 1234
+```
+
+
  
 ## Versioning
 
