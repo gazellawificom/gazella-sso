@@ -1,10 +1,11 @@
 # Gazella-sso
 
-Single Sign-on for Gazella Wifi Partners & Resellers 
+Single Sign-on for Gazella Wifi Partners & Resellers.
 
 ## Getting Started
 
-If you have a Partner or Reseller account with GazellaWifi.com - These instructions will get you up an running to be able to programmatically login as one of your users. 
+If you have a Partner or Reseller account with GazellaWifi.com - These instructions will allow to be able to programmatically login as one of your users in one click. This means
+all you need is one of your sub users IDs and you do not need their username and or password anymore to simply access their account. Use this for implmentation into your own system to eliminate the hassle of your usiers having multiple logins. 
 
 ### Server Requirements
 Php 5.6 or newer
