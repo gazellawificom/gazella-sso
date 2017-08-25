@@ -32,19 +32,20 @@ with your own variables seen below within your gazella-sso.php:
 //======================================================================//  
 
 /* This is the token that you can find under your account Settings */
-$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Example: 3948_93V4bbbbba747023450bd
+$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX';
 
 /* Insert your reseller sys login url here */
-$sysURL = "sys.yoursystemurl.com";   // Example: sys.yoursystemurl.com
+$sysURL = "XXXXXXXXXXXXXX";
 
 /* Insert the user ID that you'd like to authenticate as */ 
-$userID = "XXX";  // Example: 1234
+$userID = "XXX";
 ```
 
-### Testing
+### Testing / Example
 
 Now that your file will look something like the code below - you may test it by
-simply visiting the file 
+simply visiting the file i.e. in your browser navigating to: yourcustomsite.com/project/gazella-sso.php
+If successful will redirect you (now logged in) as the user that you specified as variable $userID.
 
 ```
 //======================================================================//
@@ -62,7 +63,6 @@ $userID = "293";
 ```
 
 
- 
 ## Versioning
 
 We use Gazella API v1.0 for this example. See Documentation here: https://sys.gazellawifi.com/docs/api/
