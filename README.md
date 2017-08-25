@@ -12,7 +12,7 @@ Php 5.6 or newer
 ### Prerequisites
 
 Gazella Partner or Reseller Account:
-> Purchase here: https://gazellawifi.com/ with a custom sys.yoursystemurl.com
+> Purchase here: https://gazellawifi.com/
 
 Your Gazella API Key "$apikey":
 > Get this here: https://sys.yoursystemurl.com/account-settings/
