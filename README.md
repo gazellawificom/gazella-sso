@@ -17,8 +17,9 @@ A Users "user_id"
 
 ### Installing
 
-Upload gazella-sso.php into your project folder. Then configure the 
-options you see 
+Upload gazella-sso.php into your project folder. 
+Then configure / replace the variables in bold text within
+the "CONFIGURATION" for example as seen below:
 
 ```
 //======================================================================//
@@ -26,13 +27,13 @@ options you see
 //======================================================================//  
 
 /* This is the token that you can find under your account Settings */
-$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; 
+$apikey = '**XXXXXXXXXXXXXXXXXXXXXXXXXXX**'; 
 
 /* Insert your reseller sys login url here */
-$sysURL = "sys.yoursite.com";   // Example: sys.yoursite.com
+$sysURL = "**sys.yoursite.com**";   // Example: sys.yoursite.com
 
 /* Insert the user ID that you'd like to authenticate as */ 
-$userID = "XXX";  // Example: 1234
+$userID = "**XXX**";  // Example: 1234
 ```
  
 ## Versioning
