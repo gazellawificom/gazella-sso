@@ -27,13 +27,13 @@ the "CONFIGURATION" for example as seen below:
 //======================================================================//  
 
 /* This is the token that you can find under your account Settings */
-$apikey = '**XXXXXXXXXXXXXXXXXXXXXXXXXXX**'; 
+$apikey = '__XXXXXXXXXXXXXXXXXXXXXXXXXXX__'; 
 
 /* Insert your reseller sys login url here */
-$sysURL = "**sys.yoursite.com**";   // Example: sys.yoursite.com
+$sysURL = "__sys.yoursite.com__";   // Example: sys.yoursite.com
 
 /* Insert the user ID that you'd like to authenticate as */ 
-$userID = "**XXX**";  // Example: 1234
+$userID = "__XXX__";  // Example: 1234
 ```
  
 ## Versioning
