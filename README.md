@@ -14,10 +14,10 @@ Php 5.6 or newer
 Gazella Partner or Reseller Account:
 > Purchase here: https://gazellawifi.com/
 
-Your Gazella API Key "$apikey":
+Your Gazella API key "$apikey":
 > Get this here: https://sys.yoursystemurl.com/account-settings/
 
-A Users ID "$userID":
+A users ID "$userID":
 > If you have users get the "ID" from one here: http://sys.yoursystemurl.com/manage-user-accounts/
 
 ### Installing
