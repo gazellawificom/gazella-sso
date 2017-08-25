@@ -11,13 +11,18 @@ Php 5.6 or newer
 
 ### Prerequisites
 
-Gazella Partner or Reseller Account <--- Purchase here: https://gazellawifi.com/
-Your Gazella API Key  <--- Get this here: https://sys.yoursystemurl.com/account-settings/
-A Users "user_id"  <--- If you have users get the "ID" from one here: http://sys.yoursystemurl.com/manage-user-accounts/
+Gazella Partner or Reseller Account:
+Purchase here: https://gazellawifi.com/ with custom sys.yoursystemurl.com
+
+Your Gazella API Key:
+Get this here: https://sys.yoursystemurl.com/account-settings/
+
+A Users "user_id":
+If you have users get the "ID" from one here: http://sys.yoursystemurl.com/manage-user-accounts/
 
 ### Installing
 
-Upload "gazella-sso.php" into your project folder I.e. yourdomain.com/project/gazella-sso.php
+Upload "gazella-sso.php" into your project folder I.e. yourcustomsite.com/project/gazella-sso.php
 Then Edit "gazella-sso.php" by replacing the variables with the 'XXXX' values in the "CONFIGURATION" 
 with your own variables seen below within your gazella-sso.php:
 
@@ -27,10 +32,10 @@ with your own variables seen below within your gazella-sso.php:
 //======================================================================//  
 
 /* This is the token that you can find under your account Settings */
-$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; 
+$apikey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Example: 3948_93V4bbbbba747023450bd
 
 /* Insert your reseller sys login url here */
-$sysURL = "sys.yoursite.com";   // Example: sys.yoursite.com
+$sysURL = "sys.yoursystemurl.com";   // Example: sys.yoursystemurl.com
 
 /* Insert the user ID that you'd like to authenticate as */ 
 $userID = "XXX";  // Example: 1234
@@ -50,10 +55,10 @@ simply visiting the file
 $apikey = '3948_93V4bbbbba747023450bd'; 
 
 /* Insert your reseller sys login url here */
-$sysURL = "sys.gazellawifi.com";   // Example: sys.yoursite.com
+$sysURL = "sys.gazellawifi.com";
 
 /* Insert the user ID that you'd like to authenticate as */ 
-$userID = "293";  // Example: 1234
+$userID = "293";
 ```
 
 
