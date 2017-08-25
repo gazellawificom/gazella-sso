@@ -12,13 +12,13 @@ Php 5.6 or newer
 ### Prerequisites
 
 Gazella Partner or Reseller Account:
-Purchase here: https://gazellawifi.com/ with custom sys.yoursystemurl.com
+> Purchase here: https://gazellawifi.com/ with custom sys.yoursystemurl.com
 
 Your Gazella API Key:
-Get this here: https://sys.yoursystemurl.com/account-settings/
+> Get this here: https://sys.yoursystemurl.com/account-settings/
 
 A Users "user_id":
-If you have users get the "ID" from one here: http://sys.yoursystemurl.com/manage-user-accounts/
+> If you have users get the "ID" from one here: http://sys.yoursystemurl.com/manage-user-accounts/
 
 ### Installing
 
